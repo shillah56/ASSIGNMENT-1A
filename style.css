@@ -5,6 +5,16 @@
     font-family: Arial, sans-serif;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container {
+    flex: 1;
+}
+
 /* NAVBAR */
 .navbar {
     background: #333;
@@ -101,5 +111,5 @@ footer {
     color: white;
     text-align: center;
     padding: 15px 0;
-    margin-top: 40px;
+    margin-top: auto;
 }
