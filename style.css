@@ -36,20 +36,27 @@
     display: flex;
     padding: 40px;
     gap: 40px;
+    align-items: flex-start;
 }
 
 .left {
     width: 50%;
+    display: flex;
+    flex-direction: column;
 }
 
 .left img {
     width: 100%;
+    max-width: 400px;
     border-radius: 10px;
+    display: block;
 }
 
 .left p {
     margin-top: 20px;
-    line-height: 1.5;
+    line-height: 1.6;
+    font-size: 16px;
+    color: #333;
 }
 
 .right {
